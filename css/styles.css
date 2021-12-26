@@ -1,0 +1,348 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+body {
+  background-color: #fefefe;
+  font-family: "Times New Roman", Times, serif;
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid #C19D2B;
+  box-sizing: border-box;
+}
+
+header p {
+  padding: 2px 0;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: .1em;
+  color: black;
+  text-shadow: 1px -.5px #C19D2B;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.header-logo {
+  margin: 7px;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+}  
+
+nav {
+  height: 180px;
+  width: 100%;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fefefe;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul li {
+  width: 100%;
+  height: 30px;
+  border-bottom: 1px solid #C19D2B;
+  box-sizing: border-box;
+}
+
+nav li a {
+ display: block;
+ color: #C19D2B;
+ text-align: center;
+ padding: 5px 0;
+ text-decoration: none;
+ font-size: 18px;
+ font-weight: 900;
+ letter-spacing: .1px;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+nav a:hover {
+  background-color: #000000;
+  color: #C19D2B;
+  font-size: 16px;
+  height: 100%;
+}
+
+a {
+  color: #C19D2B;
+  text-decoration: none;
+  padding: 0;
+}
+
+a:hover {
+  color: black;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  text-align: justify;
+  text-indent: 1.5em;
+  line-height: 1.5em;
+  font-weight: 700;
+  color: black;
+  padding: 30px 20px 10px 20px;
+  border-bottom: 2px dotted #C19D2B;
+  box-sizing: border-box;
+}
+
+section > * {
+  padding: 1px;
+}
+
+section h1, h2 {
+  text-align: center;
+  color: #876D07;
+  text-shadow: .2px -.2px .2px #000000;
+  margin: .5px;
+  font-size: 26px;
+  text-indent: 0;
+}
+
+section h2 {
+  font-size: 22px;
+}
+
+article {
+  text-align: center;
+}
+
+article a {
+  line-height: 2.2em;
+}
+
+.zk_slika {
+  float: left;
+  margin-left: 5px;
+  margin-right: 10px;
+  width: 250px;
+  height: auto;
+}
+
+.azbuka, .knjige, footer {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: normal;
+  justify-content: center;
+}
+
+.azbuka {
+  font-size: 26px;
+}
+
+.naslovne_str {
+  padding: 2px;
+  float: left;
+  height: 400px;
+}
+
+.nazivi_ap, .ap {
+  text-indent: 0px;
+}
+
+.ap {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+#afOblasti > * {
+  line-height: 2em;
+}
+
+.iframe {
+  overflow: hidden;
+  /* 16:9 aspect ratio */
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe iframe {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+
+
+aside {
+  text-align: center;
+  background-color: #fefefe;
+  display: block;
+}
+
+aside > * {
+  padding: 5px;
+  padding-top: 15px;
+  margin: 0;
+  font-weight: 900;
+  max-width: 100%;
+}
+
+aside h2 {
+  color: black;
+  font-size: 20px;
+}
+
+h3 {
+  color: #C19D2B;
+  font-size: 16px;
+}
+
+#slika_gosta {
+  width: 90%;
+}
+
+footer {
+  width: 100%;
+  background-color: #C19D2B;
+  clear: both;
+  position: relative;
+  padding: 3px;
+  font-size: 18px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0px;
+  font-weight: bold;
+}
+
+#potpis {
+  height: 80px;
+}
+
+.linkovi {
+  color: black;
+  text-decoration: none;
+}
+
+.linkovi:hover {
+  color: white;
+}
+
+#prica > p {
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 450px) {
+  header p {
+    font-size: 14px;
+  }
+
+  footer {
+    height: 30px;
+    flex-direction: column;
+  }
+  
+  #potpis {
+    height: 100%;
+    position: absolute;
+    right: 10px;
+    top: 0;
+  }
+  
+  .azbuka {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  header p {
+    font-size: 20px;
+    text-shadow: 2px -1px #C19D2B;
+  }
+
+  nav li a {
+    font-size: 14px;
+  }
+
+  .zk_slika {
+    width: 300px;
+  }
+
+  .azbuka {
+    font-size: 40px;
+  }
+
+  footer {
+    height: 40px;
+  }
+}
+
+
+@media screen and (min-width: 800px) {
+  header p {
+    font-size: 26px;
+  }
+  nav {
+    height: 30px;
+  }
+  nav ul {
+    flex-direction: row;
+    height: 30px;
+  }
+  nav li {
+    width: 25%;
+  }
+  nav li a {
+    font-size: 18px;
+  }
+
+  main {
+    flex-direction: row;
+    bottom: 100px;
+    top: 100px;
+    grid-auto-rows: 1fr;
+    min-height: 600px;
+    height: 100%;
+  }
+  section {
+    position: inherit;
+    width: 80%;
+    border: none;
+  }
+
+  aside {
+    width: 20%;
+    right: 0;
+    z-index: 0;
+    border-left: 2px dotted #C19D2B;
+  }
+
+  .zk_slika {
+    width: 350px;
+  }
+
+  .azbuka {
+    font-size: 50px;
+  }
+}
