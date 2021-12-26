@@ -43,6 +43,10 @@ ul {
   list-style-type: none;
 }  
 
+ul.nabrajanja {
+  list-style-position: outside;
+}
+
 nav {
   height: 180px;
   width: 100%;
@@ -214,10 +218,6 @@ aside h2 {
 h3 {
   color: #C19D2B;
   font-size: 16px;
-}
-
-#slika_gosta {
-  width: 90%;
 }
 
 footer {
