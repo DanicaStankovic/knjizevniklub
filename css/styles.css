@@ -152,42 +152,11 @@ article a {
   line-height: 2.2em;
 }
 
-.zk_slika {
-  float: left;
-  margin-left: 5px;
-  margin-right: 10px;
-  width: 250px;
-  height: auto;
-}
-
-.azbuka, .knjige, footer {
+footer {
   display: flex;
   flex-wrap: wrap;
   line-height: normal;
   justify-content: center;
-}
-
-.azbuka {
-  font-size: 26px;
-}
-
-.naslovne_str {
-  padding: 2px;
-  float: left;
-  height: 400px;
-}
-
-.nazivi_ap, .ap {
-  text-indent: 0px;
-}
-
-.ap {
-  font-size: 20px;
-  line-height: 1.5em;
-}
-
-#afOblasti > * {
-  line-height: 2em;
 }
 
 .iframe {
@@ -246,10 +215,6 @@ footer p {
   font-weight: bold;
 }
 
-#potpis {
-  height: 80px;
-}
-
 .linkovi {
   color: black;
   text-decoration: none;
@@ -266,7 +231,7 @@ footer p {
 
 @media screen and (min-width: 450px) {
   header p {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   footer {
@@ -288,7 +253,7 @@ footer p {
 
 @media screen and (min-width: 600px) {
   header p {
-    font-size: 20px;
+    font-size: 26px;
     text-shadow: 2px -1px #C19D2B;
   }
 
@@ -312,10 +277,10 @@ footer p {
 
 @media screen and (min-width: 800px) {
   header p {
-    font-size: 26px;
+    font-size: 30px;
   }
   nav {
-    height: 30px;
+    height: 32px;
   }
   nav ul {
     flex-direction: row;
