@@ -26,12 +26,12 @@ document.getElementById('aforizam_gosta4').innerText = "Историја се п
 document.getElementById('aforizam_gosta5').innerText = "Коме закон лежи у топузу, тај једино чува своју гузу.";
 document.getElementById('aforizam_gosta6').innerText = "Судови су нам прљави. Нема ко да их опере.";
 
-document.getElementById('ime_pesnika').innerHTML = "БРАНКА ТАНАСИЋ"+ "<br><br>" + "Плетиво неба";
+document.getElementById('ime_pesnika').innerHTML = "БРАНКА ТАНАСИЋ"+ "<br>" + "Плетиво неба";
 document.getElementById('ime_pesnika').href = "";
 //document.getElementById('ime_pesnika').target = "_blank";
 document.getElementById('pesma').innerHTML = "Танана су сва," + "<br>" + "плетива моја," + "<br>" + "тананијем мислим" + "<br>" + "исплетена," + "<br>" + "звезданијем небом" + "<br>" + "окићена," + "<br>" + "месечевим светлом" + "<br>" + "обасјана," + "<br>" + "у кораку вечном" + "<br>" + "битисала." + "<br>" + "Умни сусрет" + "<br>" + "две душе је празник," + "<br>" + "знак је неба," + "<br>" + "његове доброте." + "<br>" + "Уживајмо у чину" + "<br>" + "лепоте.";
 
-document.getElementById('ime_pesnika2').innerHTML = "ЉУБОМИР ЈЕРЕМИЋ" + "<br><br>" + "Молитва";
+document.getElementById('ime_pesnika2').innerHTML = "ЉУБОМИР ЈЕРЕМИЋ" + "<br>" + "Молитва";
 document.getElementById('ime_pesnika2').href = "";
 //document.getElementById('ime_pesnika2').target = "_blank";
 document.getElementById('pesma2').innerHTML = "Кад у ноћи све затаји," + "<br>" + "и све се умири," + "<br>" + "тад у своје срце нежно" + "<br>" + "и благо завири." + "<br><br>" 
