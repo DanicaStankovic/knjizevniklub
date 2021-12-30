@@ -46,13 +46,16 @@ ul {
 }  
 
 ul.nabrajanja {
-  padding: 0; 
   margin: 0; 
 }
 
 ul.nabrajanja li {
-  list-style-position: outside;
-  padding-left: 0.5em;
+  text-indent: -5px;
+}
+
+ul.nabrajanja > li:before {
+  content: "-";
+  text-indent: -5px;
 }
 
 nav {
