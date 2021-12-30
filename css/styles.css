@@ -41,10 +41,18 @@ header p {
 
 ul {
   list-style-type: none;
+  padding-left: 3em;
+  list-style-position: outside;
 }  
 
 ul.nabrajanja {
+  padding: 0; 
+  margin: 0; 
+}
+
+ul.nabrajanja li {
   list-style-position: outside;
+  padding-left: 0.5em;
 }
 
 nav {
