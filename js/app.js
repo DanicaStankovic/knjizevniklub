@@ -12,19 +12,26 @@ document.getElementById('pesnik').href = "";
 //document.getElementById('pesnik').target = "_blank";
 document.getElementById('st_meseca').innerHTML = "Имала Нана широко срце" + "<br>" + "Да нас све њиме много воли," + "<br>" + "И малу собу, икона пуну" + "<br>" + "Да се пред њима за нас моли.";
 
-document.getElementById('ime_gosta1').innerText = "МИТАР ЂЕРИЋ";
+document.getElementById('ime_gosta1').innerText = "МИЛИЈАН ДЕСПОТОВИЋ";
 document.getElementById('ime_gosta1').href = "";
-//document.getElementById('ime_gosta1').target = "_blank";
-document.getElementById('aforizam_gosta1').innerText = "Влада је увела ред у породилиштима. Уопште нема гужве.";
-document.getElementById('aforizam_gosta2').innerText = "Од вековних огњишта, остао нам је само вечни пламен.";
-document.getElementById('aforizam_gosta3').innerText = "Пун новчаник се лакше носи.";
+//document.getElementById('ime_gostа1').target = "_blank";
+document.getElementById('aforizam_gosta1').innerText = "Два лица и за коњску главу, то је премного.";
+document.getElementById('aforizam_gosta2').innerText = "Јунаци из бајки још верују да постоји правда.";
+document.getElementById('aforizam_gosta3').innerText = "Онај што је веровао вину, утопио се у води.";
 
-document.getElementById('ime_gosta2').innerText = "НАДА КАРАЏИЋ";
+document.getElementById('ime_gosta2').innerText = "МИТАР ЂЕРИЋ";
 document.getElementById('ime_gosta2').href = "";
 //document.getElementById('ime_gosta2').target = "_blank";
-document.getElementById('aforizam_gosta4').innerText = "Историја се понавља, зато што јој није суђено на време.";
-document.getElementById('aforizam_gosta5').innerText = "Коме закон лежи у топузу, тај једино чува своју гузу.";
-document.getElementById('aforizam_gosta6').innerText = "Судови су нам прљави. Нема ко да их опере.";
+document.getElementById('aforizam_gosta4').innerText = "Влада је увела ред у породилиштима. Уопште нема гужве.";
+document.getElementById('aforizam_gosta5').innerText = "Од вековних огњишта, остао нам је само вечни пламен.";
+document.getElementById('aforizam_gosta6').innerText = "Пун новчаник се лакше носи.";
+
+document.getElementById('ime_gosta3').innerText = "НАДА КАРАЏИЋ";
+document.getElementById('ime_gosta3').href = "";
+//document.getElementById('ime_gosta3').target = "_blank";
+document.getElementById('aforizam_gosta7').innerText = "Историја се понавља, зато што јој није суђено на време.";
+document.getElementById('aforizam_gosta8').innerText = "Коме закон лежи у топузу, тај једино чува своју гузу.";
+document.getElementById('aforizam_gosta9').innerText = "Судови су нам прљави. Нема ко да их опере.";
 
 document.getElementById('ime_pesnika').innerHTML = "БРАНКА ТАНАСИЋ"+ "<br>" + "Плетиво неба";
 document.getElementById('ime_pesnika').href = "";
