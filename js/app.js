@@ -2,15 +2,15 @@ var val;
 
 val = document;
 
-document.getElementById('aforisticar').innerText = "САВО МАРТИНОВИЋ";
+document.getElementById('aforisticar').innerText = "МИЛИВОЈЕ ЈОЗИЋ";
 document.getElementById('aforisticar').href = "";
 //document.getElementById('aforisticar').target = "_blank";
-document.getElementById('af_meseca').innerText = "Што ташта роди, то мајка не рађа.";
+document.getElementById('af_meseca').innerText = "На изборима народ је рекао своје. Сада има да ћути.";
 
 document.getElementById('pesnik').innerText = "ЉИЉАНА БОШКОВИЋ";
 document.getElementById('pesnik').href = "";
 //document.getElementById('pesnik').target = "_blank";
-document.getElementById('st_meseca').innerHTML = "Имала Нана широко срце" + "<br>" + "Да нас све њиме много воли," + "<br>" + "И малу собу, икона пуну" + "<br>" + "Да се пред њима за нас моли.";
+document.getElementById('st_meseca').innerHTML = "У тој смо соби сазнали прво," + "<br>" + "Да се само пред Богом клечи," + "<br>" + "Какав је јунак Краљевић Марко," + "<br>" + "И како вила Милоша лечи.";
 
 document.getElementById('ime_gosta1').innerText = "МИЛИЈАН ДЕСПОТОВИЋ";
 document.getElementById('ime_gosta1').href = "";
