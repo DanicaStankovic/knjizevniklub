@@ -33,6 +33,13 @@ document.getElementById('aforizam_gosta7').innerText = "Историја се п
 document.getElementById('aforizam_gosta8').innerText = "Коме закон лежи у топузу, тај једино чува своју гузу.";
 document.getElementById('aforizam_gosta9').innerText = "Судови су нам прљави. Нема ко да их опере.";
 
+document.getElementById('ime_gosta4').innerText = "САВО МАРТИНОВИЋ";
+document.getElementById('ime_gosta4').href = "";
+//document.getElementById('ime_gosta4').target = "_blank";
+document.getElementById('aforizam_gosta10').innerText = "Нећу да идем комшији на сахрану, иако би он мени радо дошао.";
+document.getElementById('aforizam_gosta11').innerText = "Паметнији сам од жене. Боље сам се оженио но што се она удала.";
+document.getElementById('aforizam_gosta12').innerText = "Ретке будале су данас врло честе.";
+
 document.getElementById('ime_pesnika').innerHTML = "БРАНКА ТАНАСИЋ"+ "<br>" + "Плетиво неба";
 document.getElementById('ime_pesnika').href = "";
 //document.getElementById('ime_pesnika').target = "_blank";
