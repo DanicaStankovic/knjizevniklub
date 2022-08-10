@@ -2,16 +2,15 @@ var val;
 
 val = document;
 
-document.getElementById('aforisticar').innerText = "МИЛИВОЈЕ ЈОЗИЋ";
+document.getElementById('aforisticar').innerText = "ЖИВКО КУЛИЋ";
 document.getElementById('aforisticar').href = "";
 //document.getElementById('aforisticar').target = "_blank";
-document.getElementById('af_meseca').innerText = "На изборима народ је рекао своје. Сада има да ћути.";
+document.getElementById('af_meseca').innerText = "Ко неће Русију за мајку, хоће Америку за маћеху.";
 
 document.getElementById('pesnik').innerText = "ЉИЉАНА БОШКОВИЋ";
 document.getElementById('pesnik').href = "";
 //document.getElementById('pesnik').target = "_blank";
-document.getElementById('st_meseca').innerHTML = "У тој смо соби сазнали прво," + "<br>" + "Да се само пред Богом клечи," + "<br>" + "Какав је јунак Краљевић Марко," + "<br>" + "И како вила Милоша лечи.";
-
+document.getElementById('st_meseca').innerHTML = "Године прошле и много с њима" + "<br>" + "И нема нане и нема робе," + "<br>" + "Ал никад више такав мирис" + "<br>" + "Тамњана и воска из њене собе.";
 document.getElementById('ime_gosta1').innerText = "МИЛИЈАН ДЕСПОТОВИЋ";
 document.getElementById('ime_gosta1').href = "";
 //document.getElementById('ime_gostа1').target = "_blank";
